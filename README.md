@@ -1,5 +1,11 @@
-# Vue 3 + Vite
+# ADHD Lesson Engager
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A simple Vue app project to create interactive lessons/exercises to keep adhd (and other !)
+ students engaged
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Each finished part or task is rewarded by random confettis and a progress bar show where the 
+student is in the lesson
+
+Lessons can be created in Markdown. Any markdown is seen as content, and blocks delimited by "Questions:" and a new paragraph are considered tasks. Tasks must be a numbered list.
+
+A Markdown file can be dropped in the upload space, and a formatted json file will be created. Dropping this file back in the upload space created the lesson.
